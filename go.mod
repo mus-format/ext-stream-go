@@ -1,4 +1,4 @@
-module github.com/mus-format/mus-stream-ext-go
+module github.com/mus-format/ext-mus-stream-go
 
 go 1.23.0
 
