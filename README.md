@@ -1,4 +1,7 @@
 # ext-mus-stream-go
-Provides a [mus-stream-go](https://github.com/mus-format/mus-go) serializer extension.
+Provides a [mus-stream-go](https://github.com/mus-format/mus-go) serializer 
+extension for the MUS format.
 
-Includes the `MarshallerMUS` interface, which represents a type that can marshal itself into the MUS format. Also includes the `MarshallerTypedMUS` interface, intended for use with [DTS](https://github.com/mus-format/mus-stream-dts-go).
+Includes the `MarshallerMUS` interface, which represents a type that can marshal
+itself into the MUS format. Also includes the `MarshallerTypedMUS` interface, 
+intended for use with [DTS](https://github.com/mus-format/mus-stream-dts-go).
