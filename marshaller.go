@@ -8,8 +8,8 @@ type MarshallerMUS interface {
 	SizeMUS() (size int)
 }
 
-// MarshallerTypedMUS interface wraps MarhsalMUS and SizeMUS methods. It is
-// intended for use with DTS.
+// MarshallerTypedMUS interface wraps MarhsalTypedMUS and SizeTypedMUS methods.
+// It is intended for use with DTS.
 type MarshallerTypedMUS interface {
 	MarshalTypedMUS(w muss.Writer) (n int, err error)
 	SizeTypedMUS() (size int)
