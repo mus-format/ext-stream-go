@@ -5,8 +5,10 @@ import (
 	"github.com/ymz-ncnk/mok"
 )
 
-type MarshalMUSFn func(w muss.Writer) (n int, err error)
-type SizeMUSFn func() (size int)
+type (
+	MarshalMUSFn func(w muss.Writer) (n int, err error)
+	SizeMUSFn    func() (size int)
+)
 
 func NewMarshallerMUS() MarshallerMUS {
 	return MarshallerMUS{mok.New("MarshallerMUS")}
