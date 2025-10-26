@@ -9,4 +9,4 @@ This package includes:
   MUS format.
 - `MarshallerTypedMUS` — an interface for types that support typed MUS
   serialization (designed for use with [DTS](https://github.com/mus-format/dts-go)).
-  
+
