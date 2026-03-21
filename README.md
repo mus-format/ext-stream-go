@@ -1,5 +1,9 @@
 # ext-stream-go
 
+> [!WARNING]
+> This repository is **deprecated**. Its functionality has been merged into the 
+> [mus-stream-go](https://github.com/mus-format/mus-stream-go) module. Please use [mus-stream-go](https://github.com/mus-format/mus-stream-go) instead.
+
 **ext-stream-go** provides an extension for the [mus-stream-go](https://github.com/mus-format/mus-stream-go)
 serializer, enabling additional functionality for the MUS format.
 
